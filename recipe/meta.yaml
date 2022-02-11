@@ -1,5 +1,5 @@
 {% set name = "rsconnect-python" %}
-{% set version = "1.6.0" %}
+{% set version = "1.7.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rstudio/rsconnect-python/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 3402e3009953266a4a901501bbc77bd78f1bcb94219fb0374888c7b50e0fb20e
+  sha256: 06a6f9d5573ab305e83ff8546eb148da619a8692dd30fb25bba2b5bd18fa981e
 
 build:
   noarch: python
@@ -16,7 +16,7 @@ build:
   number: 0
   script_env:
     - SETUPTOOLS_SCM_PRETEND_VERSION={{ version }}
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -38,7 +38,7 @@ about:
   license: GPL-2.0-only
   license_family: GPL
   license_file: LICENSE.md
-  summary: 'The rsconnect-python CLI and library'
+  summary: The rsconnect-python CLI and library
 
 extra:
   recipe-maintainers:
