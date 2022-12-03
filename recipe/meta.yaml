@@ -1,5 +1,5 @@
 {% set name = "rsconnect-python" %}
-{% set version = "1.12.1" %}
+{% set version = "1.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/rstudio/rsconnect-python/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 1b3fec121535ef117b4b7b13cffd192468ff5f55e8e0a56f3f9a3cec3d10204f
+  sha256: addaa1f05aa6aa97a2d6d5aad529c9fca189cd43fda7484649cf2b70a752139a
 
 build:
   noarch: python
