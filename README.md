@@ -1,11 +1,11 @@
-About rsconnect-python
-======================
+About rsconnect-python-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rsconnect-python-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rstudio/rsconnect-python
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rsconnect-python-feedstock/blob/main/LICENSE.txt)
 
 Summary: The rsconnect-python CLI and library
 
