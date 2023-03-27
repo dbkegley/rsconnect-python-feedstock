@@ -145,5 +145,5 @@ Feedstock Maintainers
 
 * [@bcwu](https://github.com/bcwu/)
 * [@dbkegley](https://github.com/dbkegley/)
-* [@scottmmjackson](https://github.com/scottmmjackson/)
+* [@tdstein](https://github.com/tdstein/)
 
